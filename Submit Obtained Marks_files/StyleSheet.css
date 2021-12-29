@@ -1,0 +1,418 @@
+﻿body 
+{
+    font-family: Cambria;
+    margin: 0px;
+    background-image: url("../img/bg.png");
+    background-repeat:repeat;
+}
+
+#page-holder
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid #EAEAEA;
+
+}
+
+#top-header-bar
+{
+    width: 100%;
+    height: 100px;
+     background-color: #0079f7;
+    color:#8A8A8A;
+    text-align:right;
+    font-size: 20px;
+     background-image: url("../img/oliva.png");
+}
+
+#top-header-bar .link
+{
+    color:White;
+    text-decoration: none;
+}
+
+#top-header-bar .link:hover
+{
+    color:#0079f7;
+    text-decoration: none;
+}
+
+#header
+{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    background-image: url(../img/oliva.png);
+    color:#B4B4B4;
+    margin-bottom: 5px;
+    
+}
+
+
+#slides
+{
+    width: 100%;
+    height: 400px;
+    background-color: #5A5A5A;
+    border-top: 5px solid #00AAF8;
+    border-bottom: 5px solid #00AAF8;
+}
+
+.search-bar
+{
+    width: 100%;
+    height: 60px;
+    color:#00AAF8;
+    font-size: 18px;
+    line-height: 60px;
+    z-index:999;
+    position:relative;
+}
+
+#page-title
+{
+    width: 100%;
+    height: 40px;
+    background-color: #0079f7;
+    color:white;
+    font-size: 24px;
+    font-weight:bold;
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom:5px;
+    line-height: 35px;
+}
+
+#page-contents
+{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    color: #00AAF8;
+    font-size: 18px;
+}
+
+#footer
+{
+     width: 100%;
+    height: 70px;
+    color: white;
+    font-size: 24px;
+    text-align:center;
+     background-color: white;
+    clear:both;
+}
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0079f7;
+  border: none;
+ 
+}
+
+.button:hover {background-color: #002af7}
+
+input[type=text], select,input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+   
+ 
+}
+
+
+#page-contents td
+{
+    padding: 3px 3px 3px 3px;
+}
+
+
+.div
+{
+    cursor:pointer;
+    border: 1px solid black;
+    
+}
+
+.div:hover 
+{
+
+  color:blue;
+  background-color: #EAEAEA;
+  
+  
+ }
+ 
+ .panel
+ {
+    background-color: White;
+    width: 370px;
+    height: 200px;
+    outline: #00AAF8 solid 5px;
+    font-size:18px;
+    color: #00AAF8;
+    text-align:right;
+ }
+  .panel th
+  {
+      color:White;
+      background-color: #00AAF8;
+      font-weight: bold;
+      margin: 0px;
+      text-align:center;
+  }
+ 
+ 
+ .link
+ {
+     text-decoration:none;
+ }
+ 
+  .link:hover
+ {
+     text-decoration:none;
+ }
+ 
+ 
+ .cat-div
+{
+    height:125px; 
+    width:125px; 
+    text-align:center; 
+    margin: 15px;
+    display: inline-block;
+}
+.cat-div:hover
+{
+ 
+}
+        
+.box
+{
+    width: 100px;
+    height:100px;
+    background-color: #00AAF8;
+    border: 2px solid black;
+    color: White;
+    text-align:center;
+}
+.loginpanel
+{
+     position:absolute;
+    top: 50%;
+    left: 50%;
+    width:33em;
+    height:20em;
+    margin-top: -14em; /*set to a negative number 1/2 of your height*/
+    margin-left: -17em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+   
+  
+    }
+    
+    .MessageBox
+    {     
+   
+    height:55px;
+    border: 2px solid #0079f7;
+    }
+    
+    .close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+
+}
+
+   .icons {
+   width:30px;
+   height:30px;
+   cursor:pointer;
+
+}
+
+/*===========================================Data Grid View=====================================================================================*/
+.mydatagrid
+{
+	width: 80%;
+	border: solid 2px black;
+	min-width: 80%;
+}
+.header
+{
+	background-color: #000;
+	font-family: Arial;
+	color: White;
+	height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.rows
+{
+	background-color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	min-height: 25px;
+	text-align: left;
+}
+.rows:hover
+{
+	background-color: #5badff;
+	color: #fff;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: #000;
+	color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	background-color: #fff;
+	color: #000;
+	
+}
+.pager
+{
+	background-color: #5badff;
+	font-family: Arial;
+	color: White;
+	height: 30px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding: 5px;
+}
+.mydatagrid th
+{
+	padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+input[type="text"].has-Error{
+  border: 2px solid red !important;
+}
+
+.submitmarksgrid
+{
+	border-collapse: collapse;
+}
+.submitmarksgrid th
+{
+	background-color: #000;
+	font-family: Arial;
+	font-size: 9pt;
+	color: White;
+	height: 25px;
+	text-align: center;
+	border: 1px solid white;
+	padding: 0 4px;
+	
+}
+
+
+.submitmarksgrid input
+{
+	padding: 0;
+	padding-left: 5px;
+	margin:3px 0;
+	
+}
+
+.submitmarksgrid input:focus
+{
+	padding: 0px;
+	margin:3px 0;
+	border: 2px solid #5badff
+	
+}
+.submitmarksgrid td
+{
+	border: 1px solid #ccc;
+	padding: 1px !important;
+	color: Black;
+	font-size: 9pt;
+	
+}
+.submitmarksgrid tr
+{
+	border: 1px solid #ccc;
+	padding: 1px !important;
+}
+.submitmarksgrid tr:hover
+{
+	border: 1px solid #ccc;
+	padding: 1px !important;
+	background-color: #5badff;
+	color: #fff;
+}
+
+.summarygrid {
+	border-collapse: collapse;
+}
+.summarygrid th
+{
+	background-color: #000;
+	font-family: Arial;
+	font-size: 9pt;
+	color: White;
+	height: 25px;
+	text-align: center;
+	border: 1px solid white;
+	padding: 0 4px;
+	
+}
+
+.summarygrid td
+{
+	border: 1px solid;
+	padding: 5px !important;
+	color: Black;
+	font-size: 12pt;
+	
+}
+.summarygrid tr
+{
+	border: 1px solid;
+	padding: 1px !important;
+}
